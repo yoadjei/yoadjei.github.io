@@ -51,7 +51,7 @@ const PROJECTS = [
     },
 ];
 
-// Typewriter Hook
+
 const useTypewriter = (text, speed = 50, startDelay = 0) => {
     const [displayText, setDisplayText] = useState('');
 
@@ -188,7 +188,7 @@ function App() {
                         className="group flex items-baseline gap-2 hover:bg-gray-50 dark:hover:bg-zinc-900 p-2 -mx-2 rounded transition-colors"
                     >
                         <span className="text-sm border-b border-gray-300 dark:border-zinc-700 pb-0.5 group-hover:border-black dark:group-hover:border-white transition-colors">
-                            deep learning vs. psycholinguistics in bec detection
+                            deep learning vs. psycholinguistics in business email compromise detection
                         </span>
                         <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
                     </a>
@@ -199,8 +199,6 @@ function App() {
                     <SocialLink href="https://github.com/yoadjei" icon={<Github size={18} />} />
                     <SocialLink href="https://www.linkedin.com/in/yawosei/" icon={<Linkedin size={18} />} />
                     <SocialLink href="https://x.com/yoadjei" icon={
-                        // Custom X Logo SVG since strictly standard Lucide might vary. 
-                        // Or using text 'X' if preferred, but SVG is cleaner.
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-[18px] h-[18px]"><path d="M4 4l11.733 16h4.267l-11.733 -16z" /><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" /></svg>
                     } />
                 </footer>
