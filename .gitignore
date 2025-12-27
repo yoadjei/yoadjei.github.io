@@ -22,5 +22,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Backup (Optional, generally shouldn't be in repo if just temp backup)
 backup/
