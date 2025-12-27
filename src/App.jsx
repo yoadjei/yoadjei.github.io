@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Github, Linkedin, Moon, Sun, ArrowUpRight } from 'lucide-react';
+import { Github, Linkedin, Moon, Sun, ArrowUpRight, Mail } from 'lucide-react';
 
 
 const EXPERIENCE = [
@@ -188,7 +188,7 @@ function App() {
                         className="group flex items-baseline gap-2 hover:bg-gray-50 dark:hover:bg-zinc-900 p-2 -mx-2 rounded transition-colors"
                     >
                         <span className="text-sm border-b border-gray-300 dark:border-zinc-700 pb-0.5 group-hover:border-black dark:group-hover:border-white transition-colors">
-                            deep learning vs. psycholinguistics in bec detection
+                            deep learning vs. psycholinguistics in business email compromise detection
                         </span>
                         <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
                     </a>
@@ -198,11 +198,12 @@ function App() {
                 <footer className="flex gap-4 pt-8">
                     <SocialLink href="https://github.com/yoadjei" icon={<Github size={18} />} />
                     <SocialLink href="https://www.linkedin.com/in/yawosei/" icon={<Linkedin size={18} />} />
-                    <SocialLink href="https://x.com/yoadjei" icon={
+                    <SocialLink href="https://x.com/yawoseii" icon={
                         // Custom X Logo SVG since strictly standard Lucide might vary. 
                         // Or using text 'X' if preferred, but SVG is cleaner.
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-[18px] h-[18px]"><path d="M4 4l11.733 16h4.267l-11.733 -16z" /><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" /></svg>
                     } />
+                    <SocialLink href="mailto:adjeiyawosei@gmail.com" icon={<Mail size={18} />} />
                 </footer>
             </div>
         </div>

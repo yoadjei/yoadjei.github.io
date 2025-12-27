@@ -19,10 +19,10 @@ export default {
             },
             fontFamily: {
                 sans: ['Inter', 'sans-serif'],
-                mono: ['monospace'], // User asked for mono or clean sans-serif
+                mono: ['monospace'],
             }
         },
     },
     plugins: [],
-    darkMode: 'class', // We will implement manual toggle via class
+    darkMode: 'class', 
 }
