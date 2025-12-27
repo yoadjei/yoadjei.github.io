@@ -210,6 +210,7 @@ function App() {
 
 
 
+
 function JobItem({ logo, company, role, description }) {
     const isImage = logo.startsWith('/');
 
