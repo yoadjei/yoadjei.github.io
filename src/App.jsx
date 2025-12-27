@@ -51,7 +51,7 @@ const PROJECTS = [
     },
 ];
 
-// Typewriter Hook
+
 const useTypewriter = (text, speed = 50, startDelay = 0) => {
     const [displayText, setDisplayText] = useState('');
 
@@ -209,6 +209,9 @@ function App() {
         </div>
     );
 }
+
+
+
 
 function JobItem({ logo, company, role, description }) {
     const isImage = logo.startsWith('/');
