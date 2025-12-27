@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Github, Linkedin, Moon, Sun, ArrowUpRight } from 'lucide-react';
+import { Github, Linkedin, Moon, Sun, ArrowUpRight, Mail } from 'lucide-react';
 
 
 const EXPERIENCE = [
@@ -207,6 +207,7 @@ function App() {
         </div>
     );
 }
+
 
 
 function JobItem({ logo, company, role, description }) {
