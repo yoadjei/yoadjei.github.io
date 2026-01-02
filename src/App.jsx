@@ -42,7 +42,7 @@ const PROJECTS = [
     {
         title: "data cleaning pipeline",
         description: "automated data validation and cleaning pipeline for heterogeneous datasets.",
-        link: "easyclean.streamlit.app/",
+        link: "https://easyclean.streamlit.app/",
     },
     {
         title: "web scraper",
