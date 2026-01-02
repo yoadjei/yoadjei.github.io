@@ -42,7 +42,7 @@ const PROJECTS = [
     {
         title: "data cleaning pipeline",
         description: "automated data validation and cleaning pipeline for heterogeneous datasets.",
-        link: "https://github.com/yoadjei/data-cleaner",
+        link: "easyclean.streamlit.app/",
     },
     {
         title: "web scraper",
