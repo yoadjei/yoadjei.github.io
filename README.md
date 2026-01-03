@@ -1,6 +1,6 @@
-# My Personal Portfolio
+# my personal portfolio
 
-This is my portfolio website. I built it using React and Tailwind CSS.
-It showcases my projects and experience in security and machine learning.
+this is my portfolio website. i built it using react and tailwind css.
+it showcases my projects and experience in security and machine learning.
 
-Thanks for visiting.
+thanks for visiting.
