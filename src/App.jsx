@@ -178,21 +178,36 @@ function App() {
                     </div>
                 </section>
 
-                {/* Publications */}
-                <section>
-                    <h2 className="text-xs font-bold text-gray-400 dark:text-zinc-500 uppercase tracking-wider mb-4">Publications</h2>
-                    <a
-                        href="https://arxiv.org/abs/2511.20944"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="group flex items-baseline gap-2 hover:bg-gray-50 dark:hover:bg-zinc-900 p-2 -mx-2 rounded transition-colors"
-                    >
-                        <span className="text-sm border-b border-gray-300 dark:border-zinc-700 pb-0.5 group-hover:border-black dark:group-hover:border-white transition-colors">
-                            deep learning vs. psycholinguistics in business email compromise detection
-                        </span>
-                        <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
-                    </a>
-                </section>
+            {/* Publications */}
+<section>
+  <h2 className="text-xs font-bold text-gray-400 dark:text-zinc-500 uppercase tracking-wider mb-4">
+    Publications
+  </h2>
+
+  <a
+    href="https://arxiv.org/abs/2511.20944"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group flex items-baseline gap-2 hover:bg-gray-50 dark:hover:bg-zinc-900 p-2 -mx-2 rounded transition-colors"
+  >
+    <span className="text-sm border-b border-gray-300 dark:border-zinc-700 pb-0.5 group-hover:border-black dark:group-hover:border-white transition-colors">
+      deep learning vs. psycholinguistics in business email compromise detection
+    </span>
+    <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
+  </a>
+
+  <a
+    href="https://www.researchsquare.com/article/rs-8735605/v1"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group flex items-baseline gap-2 hover:bg-gray-50 dark:hover:bg-zinc-900 p-2 -mx-2 rounded transition-colors"
+  >
+    <span className="text-sm border-b border-gray-300 dark:border-zinc-700 pb-0.5 group-hover:border-black dark:group-hover:border-white transition-colors">
+      reliability-aware pm2.5 mapping in africa via satellite–reanalysis fusion and sparse monitors
+    </span>
+    <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
+  </a>
+</section>
 
                 {/* Footer */}
                 <footer className="flex gap-4 pt-8">
