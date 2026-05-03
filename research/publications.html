@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Publications, Yaw Osei Adjei">
+  <meta name="author" content="Yaw Osei Adjei">
+
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:site" content="@yawoseii">
+  <meta property="twitter:creator" content="@yawoseii">
+
+  <meta property="og:site_name" content="Yaw Osei Adjei, Publications">
+  <meta property="og:url" content="https://yoadjei.github.io/research/publications.html">
+  <meta property="og:title" content="Yaw Osei Adjei, Publications">
+  <meta property="og:description" content="Publications and preprints by Yaw Osei Adjei">
+  <meta property="og:image" content="https://yoadjei.github.io/research/figs/profile.jpg">
+  <meta property="twitter:image" content="https://yoadjei.github.io/research/figs/profile.jpg">
+  <meta property="og:locale" content="en">
+
+  <title>Yaw Osei Adjei, Publications</title>
+  <link rel="icon" type="image/png" href="figs/favicon.ico"/>
+  <link rel="canonical" href="https://yoadjei.github.io/research/publications.html">
+
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Open+Sans&display=swap" rel="stylesheet">
+
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <link href="css/timeline.css" rel="stylesheet">
+
+  <style>
+    h1 {
+        padding-top: 100px;
+    }
+</style>
+  <script src="js/gtag.js"></script>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-dark nav-color fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="index.html#page-top">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html#news">News</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link js-scroll-trigger" href="publications.html">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="talks.html">Invited Talks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="502.html">502</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="pubs" class="flex-grow-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Publications</h2>
+
+          <div class="pub-filters mb-4">
+            <div class="row g-2 align-items-end">
+              <div class="col-md-3">
+                <label for="pub-search" class="form-label">Search titles</label>
+                <input type="text" class="form-control form-control-sm" id="pub-search" placeholder="e.g. explainability">
+              </div>
+              <div class="col-md-2">
+                <label for="pub-year" class="form-label">Year</label>
+                <select class="form-select form-select-sm" id="pub-year">
+                  <option value="">All years</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="pub-venue" class="form-label">Venue</label>
+                <select class="form-select form-select-sm" id="pub-venue">
+                  <option value="">All venues</option>
+                </select>
+              </div>
+              <div class="col-md-3">
+                <label for="pub-author" class="form-label">Author</label>
+                <input type="text" class="form-control form-control-sm" id="pub-author" placeholder="e.g. Adjei">
+              </div>
+              <div class="col-md-2">
+                <button type="button" class="btn btn-outline-secondary btn-sm w-100" id="pub-clear-filters">Clear filters</button>
+              </div>
+            </div>
+            <div id="pub-result-count" class="text-muted mt-2" style="font-size: 0.9em;"></div>
+          </div>
+
+          <div id="publications-container">
+            <noscript>Please enable JavaScript to view publications.</noscript>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+    <footer class="py-5 nav-color">
+        <div class="container">
+            <p class="m-0 text-center text-white">&copy; Yaw Osei Adjei</p>
+        </div>
+    </footer>
+
+    <script src="vendor/jquery/jquery.min.js" defer></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js" defer></script>
+    <script src="js/scrolling-nav.js" defer></script>
+    <script src="js/publications.js" defer></script>
+
+    <div id="modal" class="modal fade" role="dialog" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Cite</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <pre><code class="tex hljs"></code></pre>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+              <i class="fas fa-copy"></i> Copy
+            </a>
+            <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+              <i class="fas fa-download"></i> Download
+            </a>
+            <div id="modal-error"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
