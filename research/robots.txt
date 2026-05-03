@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /research/
+Sitemap: https://yoadjei.github.io/research/sitemap.xml
