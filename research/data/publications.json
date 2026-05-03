@@ -1,0 +1,104 @@
+[
+  {
+    "title": "Explain, Explain, Explain: Uncertainty and Explanation Alignment for EEG Models Under Artifact and Explainer Perturbations",
+    "authors": "Yaw Osei Adjei, Papa Adarkwa Agyapong, Kofi Boateng-Osei, Micheal Boadi, Abdul Rashid Seidu Amadu, Kwabena Kissiedu, Jeffrey Frimpong Kyei, Philip Amponsah Baning",
+    "venue": "AISB 2026 XTAI Symposium (UK), oral presentation",
+    "year": 2026,
+    "note": "Accepted May 2026. Perturbation-based XAI audit for EEG; abstain-to-explain under uncertainty.",
+    "links": {
+      "pdf": "papers/XTAI.pdf"
+    }
+  },
+  {
+    "title": "But Are You Sure? Calibrating Uncertainty for Reliable Perturbation Explanations in Neural Biosignal Models",
+    "authors": "Yaw Osei Adjei, Davis Opoku, Ephraim Abotsi, Kwadwo Amanqua Owusu, Philip Amponsah Baning, Jeffrey Kyei Frimpong, Kwabena Kissiedu, Elisha Soglo-Ahianyo, Kofi Dadzie Boateng Osei",
+    "venue": "ICANN 2026 (Italy)",
+    "year": 2026,
+    "note": "Submitted Feb 2026. Joint calibration and explanation quality under explainer-aligned perturbations on BCI IV 2a.",
+    "links": {}
+  },
+  {
+    "title": "When the Brain Signal Lies: Uncertainty and Explanation Alignment for EEG-BCI Under Artifact Perturbations",
+    "authors": "Yaw Osei Adjei, Davis Opoku, Ephraim Abotsi, Kwadwo Owusu Amanqua, Paul Junior Kwabena Nsiah, Philip Amponsah Baning",
+    "venue": "BCI 2026 (Austria)",
+    "year": 2026,
+    "note": "Submitted Mar 2026; revised Apr 2026. Formalizes uncertainty and explanation alignment; abstain-to-explain on BCI Competition IV 2a and OpenBMI.",
+    "links": {}
+  },
+  {
+    "title": "One Call, Two Outputs: Multilingual Voice-Based Injury Reporting and Surveillance in Ghana",
+    "authors": "Yaw Osei Adjei, Davis Opoku, Kwadwo Amanqua Owusu, and Benjamin Tei Partey",
+    "venue": "Injury Conference 2026 (KNUST and University of Washington), oral presentation",
+    "year": 2026,
+    "note": "Abstract Apr 2026; Oral presentation 6–7 May 2026. VoiceTrace: five-stage NLP pipeline from spoken injury reports in Twi, Ga, Ewe, Fante, or Dagbani to spoken first-aid guidance plus structured geocoded surveillance over a basic phone call.",
+    "links": {
+      "pdf": "papers/one-call.pdf",
+      "slides": "presentations/voice-trace.pdf",
+      "slidesLabel": "slides"
+    }
+  },
+  {
+    "title": "Semantic Superiority vs. Forensic Efficiency: A Comparative Analysis of Deep Learning and Psycholinguistics for Business Email Compromise Detection",
+    "authors": "Yaw Osei Adjei, Fredrick Ayivor",
+    "venue": "SVCC 2026 (Silicon Valley, USA), Oral Presentation",
+    "year": 2025,
+    "note": "Submitted Nov 2025; accepted Feb 2026 for SVCC 2026. Cost-sensitive comparison of DistilBERT vs. psycholinguistic CatBoost on hybrid BEC corpora.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2511.20944",
+      "pdf": "papers/BEC_Detection_Camera-Ready.pdf"
+    }
+  },
+  {
+    "title": "Conformal PM2.5 Mapping Under Spatial Covariate Shift: Satellite and Reanalysis Fusion for Africa's Green Industrial Transition",
+    "authors": "Yaw Osei Adjei, Davis Opoku, Ephraim Abotsi, Kwadwo Owusu Amanqua, Oliver Kornyo, Elisha Soglo-Ahianyo, Cephas Anertey Abbey",
+    "venue": "iCAD 2026 (Cambridge, UK), Oral Presentation",
+    "year": 2026,
+    "note": "Submitted Mar 2026; accepted for oral Apr 2026. Conformal spatial CV, regional reliability flags, and monitor prioritization across 29 African countries (OpenAQ 2017 to 2022). Preprint on arXiv.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.22787",
+      "pdf": "papers/Conformal Final.pdf"
+    }
+  },
+  {
+    "title": "A Right to an Explanation, or a Right to Be Misled? Auditing AI Explanation Reliability at Deployment",
+    "authors": "Yaw Osei Adjei, Benjamin Tei Partey",
+    "venue": "AIES 2026 (Sweden)",
+    "year": 2026,
+    "note": "Submitted May 2026. Deployment-focused accountability for explanation systems: misalignment rate and abstain-to-explain on EEG-based models under artefacts.",
+    "links": {}
+  },
+  {
+    "title": "HELIX: A Multi-Method Framework for Heteroskedasticity Detection",
+    "authors": "Philip Amponsah Baning, Yaw Osei Adjei",
+    "venue": "Preprint",
+    "year": 2026,
+    "note": "Classic BP, White, neural BP with bootstrap, and sliding-window Local BP in a unified Python framework.",
+    "links": {}
+  },
+  {
+    "title": "VLM: Variance Landscape Mapping for Heteroskedastic Reward Signals in Reinforcement Learning",
+    "authors": "Philip Amponsah Baning, Yaw Osei Adjei",
+    "venue": "Preprint",
+    "year": 2026,
+    "note": "Separates aleatoric vs. epistemic variance for exploration in heteroskedastic bandits and DQN-style settings.",
+    "links": {}
+  },
+  {
+    "title": "Do Foundation Model Embeddings Improve Cross-Country Crop Yield Generalisation? A Leave-One-Country-Out Evaluation in Sub-Saharan Africa",
+    "authors": "Yaw Osei Adjei",
+    "venue": "Preprint",
+    "year": 2026,
+    "note": "LOCO evaluation on 6,404 smallholder maize fields (5 countries); Prithvi-EO vs. Sentinel-2 under distribution shift.",
+    "links": {
+      "code": "https://github.com/yoadjei/yield-africa"
+    }
+  },
+  {
+    "title": "A Right to an Explanation, or a Right to Be Misled? Auditing AI Explanation Reliability at Deployment",
+    "authors": "Yaw Osei Adjei, Benjamin Tei Partey",
+    "venue": "Preprint",
+    "year": 2026,
+    "note": "Deployment-focused accountability for explanation systems: misalignment rate and abstain-to-explain on EEG-based models under artefacts.",
+    "links": {}
+  }
+]
