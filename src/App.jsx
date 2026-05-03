@@ -5,49 +5,39 @@ import { Github, Linkedin, Moon, Sun, ArrowUpRight, Mail } from 'lucide-react';
 const EXPERIENCE = [
     {
         company: "AmaliTech",
-        role: "Security Data Intern",
-        description: "worked with log data and monitoring tools to detect unusual activity and improve threat visibility.",
+        role: "DevOps Intern",
+        description: "built gitlab ci/cd pipelines that cut deployment time from 30 min to under 5. containerized services with docker and set up prometheus + grafana monitoring with slack alerts for downtime.",
         logo: "/amalitech.jpg",
     },
     {
         company: "ISTAD-UITS (KNUST)",
-        role: "Security Analytics Intern",
-        description: "analyzed security logs and monitoring data to identify abnormal system and network behavior.",
+        role: "Infrastructure Intern",
+        description: "configured vms on proxmox for university services. set up vlans and firewall rules to segment campus traffic. troubleshot network issues with packet analysis, cutting ticket resolution time.",
         logo: "/knust.jpg",
     },
     {
         company: "Ideation Axis",
-        role: "Analytics Intern",
-        description: "analyzed security events and logs using python to uncover threat patterns and support response efforts.",
+        role: "Software Engineering Intern",
+        description: "built features for a django web app including auth and dashboards. refactored legacy code to cut page load times by 40%. wrote unit tests to improve reliability before releases.",
         logo: "/ideation.jpg",
     },
 ];
 
 const PROJECTS = [
     {
-        title: "mframapa ai",
-        description: "pan-african air quality prediction system using xgboost & nasa satellite data.",
-        link: "http://mframapaai.health/",
-    },
-    {
-        title: "astroml classifier",
-        description: "supervised machine learning system for classifying cosmic particles using svm, rf and knn algorithms.",
-        link: "https://github.com/Alanperry1/AstroML-Gamma-vs-Hadron-Classifier",
+        title: "self-hosted gitlab",
+        description: "spun up a full gitlab instance with docker compose, including python and node runners that auto-register on boot. wrote a bash script that hits the gitlab api to generate runner tokens — no manual clicks needed. includes a sample ci pipeline and docs explaining every piece.",
+        link: "https://github.com/yoadjei/self-hosted-gitlab",
     },
     {
         title: "mini etl",
-        description: "lightweight python etl framework for real-time, streaming data pipeline processing.",
+        description: "python framework for building data pipelines that extract from apis or databases, transform with custom functions, and load into csv, json, or postgres. supports scheduling, logging, and retry logic. built it to learn how tools like airflow work under the hood.",
         link: "https://github.com/yoadjei/mini-etl",
     },
     {
-        title: "data cleaning pipeline",
-        description: "automated data validation and cleaning pipeline for heterogeneous datasets.",
-        link: "https://easyclean.streamlit.app/",
-    },
-    {
-        title: "web scraper",
-        description: "configurable python web scraping tool for structured data extraction.",
-        link: "https://github.com/yoadjei/web-scraper",
+        title: "mframapa ai",
+        description: "air quality prediction platform covering all 54 african countries. uses xgboost trained on nasa satellite data to forecast pm2.5 levels for locations without physical sensors. fastapi backend, react frontend, deployed on aws with docker. completely free to use.",
+        link: "http://mframapaai.health/",
     },
 ];
 
@@ -85,8 +75,8 @@ function App() {
 
     // Typewriter effects
     const headerText = useTypewriter("hi, i'm yaw osei", 50, 0);
-    const subText1 = useTypewriter("ai/ml", 50, 1000);
-    const subText2 = useTypewriter("i do a bit of everything.", 30, 1500);
+    const subText1 = useTypewriter("devops & software engineering", 50, 1000);
+    const subText2 = useTypewriter("building, deploying, automating.", 30, 1500);
 
     useEffect(() => {
         if (darkMode) {
@@ -178,44 +168,39 @@ function App() {
                     </div>
                 </section>
 
-            {/* Publications */}
-<section>
-  <h2 className="text-xs font-bold text-gray-400 dark:text-zinc-500 uppercase tracking-wider mb-4">
-    Publications
-  </h2>
+                {/* Research */}
+                <section>
+                    <h2 className="text-xs font-bold text-gray-400 dark:text-zinc-500 uppercase tracking-wider mb-4">Research</h2>
+                    <a
+                        href="/research"
+                        className="group flex items-baseline gap-2 hover:bg-gray-50 dark:hover:bg-zinc-900 p-2 -mx-2 rounded transition-colors"
+                    >
+                        <span className="text-sm border-b border-gray-300 dark:border-zinc-700 pb-0.5 group-hover:border-black dark:group-hover:border-white transition-colors">
+                            view my academic work & publications
+                        </span>
+                        <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
+                    </a>
+                </section>
 
-  <a
-    href="https://arxiv.org/abs/2511.20944"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="group flex items-baseline gap-2 hover:bg-gray-50 dark:hover:bg-zinc-900 p-2 -mx-2 rounded transition-colors"
-  >
-    <span className="text-sm border-b border-gray-300 dark:border-zinc-700 pb-0.5 group-hover:border-black dark:group-hover:border-white transition-colors">
-      deep learning vs. psycholinguistics in business email compromise detection
-    </span>
-    <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
-  </a>
-
-  <a
-    href="https://www.researchsquare.com/article/rs-8735605/v1"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="group flex items-baseline gap-2 hover:bg-gray-50 dark:hover:bg-zinc-900 p-2 -mx-2 rounded transition-colors"
-  >
-    <span className="text-sm border-b border-gray-300 dark:border-zinc-700 pb-0.5 group-hover:border-black dark:group-hover:border-white transition-colors">
-      reliability-aware pm2.5 mapping in africa via satellite–reanalysis fusion and sparse monitors
-    </span>
-    <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
-  </a>
-</section>
+                {/* Writing */}
+                <section>
+                    <h2 className="text-xs font-bold text-gray-400 dark:text-zinc-500 uppercase tracking-wider mb-4">Writing</h2>
+                    <a
+                        href="/thoughts.html"
+                        className="group flex items-baseline gap-2 hover:bg-gray-50 dark:hover:bg-zinc-900 p-2 -mx-2 rounded transition-colors"
+                    >
+                        <span className="text-sm border-b border-gray-300 dark:border-zinc-700 pb-0.5 group-hover:border-black dark:group-hover:border-white transition-colors">
+                            40 thoughts on life
+                        </span>
+                        <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
+                    </a>
+                </section>
 
                 {/* Footer */}
                 <footer className="flex gap-4 pt-8">
                     <SocialLink href="https://github.com/yoadjei" icon={<Github size={18} />} />
                     <SocialLink href="https://www.linkedin.com/in/yawosei/" icon={<Linkedin size={18} />} />
                     <SocialLink href="https://x.com/yawoseii" icon={
-                        // Custom X Logo SVG since strictly standard Lucide might vary. 
-                        // Or using text 'X' if preferred, but SVG is cleaner.
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-[18px] h-[18px]"><path d="M4 4l11.733 16h4.267l-11.733 -16z" /><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" /></svg>
                     } />
                     <SocialLink href="mailto:adjeiyawosei@gmail.com" icon={<Mail size={18} />} />
