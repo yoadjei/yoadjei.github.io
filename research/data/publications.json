@@ -1,7 +1,19 @@
 [
   {
+    "title": "Reliability-Aware PM2.5 Mapping in Africa via Satellite-Reanalysis Fusion and Sparse Monitors",
+    "authors": "Yaw Osei Adjei, Davis Opoku, Ephraim Abotsi, Benjamin Tei Partey",
+    "venue": "ICSSID 2026",
+    "year": 2026,
+    "note": "Oral presentation",
+    "links": {
+      "pdf": "papers/paper.pdf",
+      "slides": "presentations/Paper 30.pdf",
+      "slidesLabel": "slides"
+    }
+  },
+  {
     "title": "Explain, Explain, Explain: Uncertainty and Explanation Alignment for EEG Models Under Artifact and Explainer Perturbations",
-    "authors": "Yaw Osei Adjei, Papa Adarkwa Agyapong, Kofi Boateng-Osei, Micheal Boadi, Abdul Rashid Seidu Amadu, Kwabena Kissiedu, Jeffrey Frimpong Kyei, Philip Amponsah Baning",
+    "authors": "Yaw Osei Adjei, Papa Adarkwa Agyapong, Kofi Boateng-Osei, et al.",
     "venue": "AISB 2026 XTAI Symposium (UK), oral presentation",
     "year": 2026,
     "note": "Accepted May 2026. Perturbation-based XAI audit for EEG; abstain-to-explain under uncertainty.",
@@ -11,7 +23,7 @@
   },
   {
     "title": "But Are You Sure? Calibrating Uncertainty for Reliable Perturbation Explanations in Neural Biosignal Models",
-    "authors": "Yaw Osei Adjei, Davis Opoku, Ephraim Abotsi, Kwadwo Amanqua Owusu, Philip Amponsah Baning, Jeffrey Kyei Frimpong, Kwabena Kissiedu, Elisha Soglo-Ahianyo, Kofi Dadzie Boateng Osei",
+    "authors": "Yaw Osei Adjei, Davis Opoku, Ephraim Abotsi, et al.",
     "venue": "ICANN 2026 (Italy)",
     "year": 2026,
     "note": "Submitted Feb 2026. Joint calibration and explanation quality under explainer-aligned perturbations on BCI IV 2a.",
@@ -19,7 +31,7 @@
   },
   {
     "title": "When the Brain Signal Lies: Uncertainty and Explanation Alignment for EEG-BCI Under Artifact Perturbations",
-    "authors": "Yaw Osei Adjei, Davis Opoku, Ephraim Abotsi, Kwadwo Owusu Amanqua, Paul Junior Kwabena Nsiah, Philip Amponsah Baning",
+    "authors": "Yaw Osei Adjei, Davis Opoku, Ephraim Abotsi, et al.",
     "venue": "BCI 2026 (Austria)",
     "year": 2026,
     "note": "Submitted Mar 2026; revised Apr 2026. Formalizes uncertainty and explanation alignment; abstain-to-explain on BCI Competition IV 2a and OpenBMI.",
@@ -50,7 +62,7 @@
   },
   {
     "title": "Conformal PM2.5 Mapping Under Spatial Covariate Shift: Satellite and Reanalysis Fusion for Africa's Green Industrial Transition",
-    "authors": "Yaw Osei Adjei, Davis Opoku, Ephraim Abotsi, Kwadwo Owusu Amanqua, Oliver Kornyo, Elisha Soglo-Ahianyo, Cephas Anertey Abbey",
+    "authors": "Yaw Osei Adjei, Davis Opoku, Ephraim Abotsi, et al.",
     "venue": "iCAD 2026 (Cambridge, UK), Oral Presentation",
     "year": 2026,
     "note": "Submitted Mar 2026; accepted for oral Apr 2026. Conformal spatial CV, regional reliability flags, and monitor prioritization across 29 African countries (OpenAQ 2017 to 2022). Preprint on arXiv.",
