@@ -74,23 +74,6 @@
       position: relative;
     }
 
-    .failure-timeline::before {
-      content: '';
-      position: absolute;
-      left: 11px;
-      top: 0.5rem;
-      bottom: 0.5rem;
-      width: 2px;
-      border-radius: 1px;
-      background: linear-gradient(180deg,
-        #448bff 0%,
-        #448bff 32%,
-        #f54394 32%,
-        #f54394 68%,
-        #f4c414 68%,
-        #f4c414 100%);
-    }
-
     .failure-item {
       position: relative;
       padding-left: 2.75rem;
@@ -101,6 +84,19 @@
       padding-bottom: 0;
     }
 
+    /* same rotation as the news timeline, counted from the oldest item */
+    .failure-item:nth-last-child(3n+1) {
+      --failure-color: #f54394;
+    }
+
+    .failure-item:nth-last-child(3n+2) {
+      --failure-color: #448bff;
+    }
+
+    .failure-item:nth-last-child(3n+3) {
+      --failure-color: #f4c414;
+    }
+
     .failure-item::before {
       content: '';
       position: absolute;
@@ -108,18 +104,25 @@
       top: 0.35rem;
       width: 16px;
       height: 16px;
-      border: 2px solid #448bff;
+      border: 2px solid var(--failure-color);
       border-radius: 50%;
       background: #fff;
       box-sizing: border-box;
     }
 
-    .failure-item:nth-child(n+3)::before {
-      border-color: #f54394;
+    /* line runs from this dot down to the next one */
+    .failure-item::after {
+      content: '';
+      position: absolute;
+      left: 11px;
+      top: calc(0.35rem + 16px);
+      bottom: -0.35rem;
+      width: 2px;
+      background: var(--failure-color);
     }
 
-    .failure-item:nth-child(n+5)::before {
-      border-color: #f4c414;
+    .failure-item:last-child::after {
+      display: none;
     }
 
     .failure-item-body {
