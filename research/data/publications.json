@@ -1,12 +1,12 @@
 [
   {
-    "title": "Reliability-Aware PM2.5 Mapping in Africa via Satellite-Reanalysis Fusion and Sparse Monitors",
+    "title": "Reliability-Aware PM2.5 Mapping in Africa via Satellite–Reanalysis Fusion and Sparse Monitors",
     "authors": "Yaw Osei Adjei, Davis Opoku, Ephraim Abotsi, Benjamin Tei Partey",
-    "venue": "ICSSID 2026",
+    "venue": "IEEE ICSSID 2026",
     "year": 2026,
-    "note": "Oral presentation",
+    "note": "Oral presentation, June 2026. Published in the conference proceedings on IEEE Xplore, November 2026.",
     "links": {
-      "pdf": "papers/paper.pdf",
+      "paper": "https://doi.org/10.1109/ICSID69485.2026.11779305",
       "slides": "presentations/Paper 30.pdf",
       "slidesLabel": "slides"
     }
